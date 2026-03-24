@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>RegSense — AI Compliance Engine for Regulated Firms</title>
-  <meta name="description" content="RegSense is an AI-powered compliance engine for regulated financial institutions. It reviews materials with deterministic checks, regulatory citations, and audit-ready evidence for human compliance review." />
-  <meta property="og:title" content="RegSense — AI Compliance Engine for Regulated Firms" />
-  <meta property="og:description" content="Deterministic compliance signals, audit-ready evidence, regulatory citations, and human-in-the-loop review." />
+  <title>RegSense — AI Compliance Operating System</title>
+  <meta name="description" content="RegSense is an AI-powered compliance operating system for regulated financial institutions. It detects and validates marketing compliance issues with deterministic checks, regulatory citations, and audit-ready evidence for human review." />
+  <meta property="og:title" content="RegSense — AI Compliance Operating System" />
+  <meta property="og:description" content="Detect, validate, and document compliance issues in marketing materials with deterministic checks and audit-ready evidence." />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -15,107 +15,177 @@
       <div class="logo" aria-hidden="true">R</div>
       <div>
         <div class="name">RegSense</div>
-        <div class="tag">AI-assisted compliance review • Canada-first</div>
+        <div class="tag">Compliance operating system • Canada-first</div>
       </div>
     </div>
     <nav class="nav">
+      <a href="#who">Who it’s for</a>
       <a href="#how">How it works</a>
       <a href="#why">Why RegSense</a>
+      <a href="#product">Product &amp; access</a>
       <a href="#usecases">Use cases</a>
-      <a href="#pricing">Product &amp; pricing</a>
       <a href="#founder">Founder</a>
     </nav>
   </header>
 
   <main class="wrap">
-    <!-- 1) HERO: clear statement + 3 value props + CTA -->
+    <!-- 1) HERO -->
     <section class="hero" id="overview">
-      <h1>AI compliance engine for regulated financial firms</h1>
+      <h1>RegSense</h1>
       <p class="sub">
-        RegSense helps Canadian investment firms review materials before publication — with deterministic checks,
-        regulatory citations, and audit-ready evidence for human compliance review.
+        <strong>AI-powered compliance operating system for financial institutions</strong>
+      </p>
+      <p class="muted" style="max-width: 860px;">
+        Automatically detect, validate, and document regulatory issues in marketing materials before publication — with
+        audit-ready evidence.
       </p>
 
       <ul class="bullets">
-        <li><strong>Deterministic compliance signals</strong> for performance, yield, comparisons, guarantees, fees, risk disclosure, and endorsements.</li>
-        <li><strong>Audit-ready evidence</strong> with quoted text, structured flags, run metadata, and traceable references.</li>
-        <li><strong>Reviewer-driven workflow</strong> (human-in-the-loop) designed for compliance teams and regulated environments.</li>
+        <li>Detect performance claims, yield language, comparisons, and disclosures</li>
+        <li>Map findings to <strong>NI 31-103</strong>, <strong>NI 81-102</strong>, CSA guidance, and internal policies</li>
+        <li>Generate structured compliance outputs for human review</li>
       </ul>
 
       <div class="cta">
         <a class="btn primary" id="waitlist" href="https://docs.google.com/forms/d/e/1FAIpQLSe22UlWRCknp6ycCyxMubylqg3zphyots8WXBrdAojGvgn7bA/viewform?usp=header" target="_blank" rel="noreferrer">Request Early Access</a>
-        <a class="btn ghost" href="#how">How it works</a>
+        <a class="btn ghost" href="#how">See How It Works</a>
       </div>
 
-      <div class="note">
-        Stage: early MVP (pilot / early access). Built to be auditable and reviewer-driven.
+      <div class="note">Stage: early MVP (pilot / early access). Built to be auditable and human-in-the-loop.</div>
+
+      <div class="card slim" style="margin-top:14px;">
+        <h2 style="margin-bottom:8px;">Pipeline (at a glance)</h2>
+        <div class="diagram" role="img" aria-label="Documents → Identify Claims → Validate → Review Output">
+          <span>Documents</span>
+          <span class="arrow">→</span>
+          <span>Identify Claims</span>
+          <span class="arrow">→</span>
+          <span>Validate</span>
+          <span class="arrow">→</span>
+          <span>Review Output</span>
+        </div>
       </div>
     </section>
 
-    <!-- 2) How RegSense Works: 4-step pipeline (non-technical) -->
+    <!-- 2) Who it's for -->
+    <section id="who" class="card slim">
+      <h2>Built for regulated financial institutions</h2>
+      <p class="muted" style="max-width: 860px;">
+        RegSense is designed for compliance and business teams operating in regulated investment environments.
+      </p>
+      <div class="chips">
+        <span class="chip">Portfolio Managers</span>
+        <span class="chip">Investment Fund Managers</span>
+        <span class="chip">Exempt Market Dealers</span>
+        <span class="chip">Compliance teams reviewing marketing materials</span>
+        <span class="chip">Legal and product teams preparing materials for release</span>
+      </div>
+    </section>
+
+    <!-- 3) How it works -->
     <section id="how" class="card slim">
-      <h2>How RegSense Works</h2>
+      <h2>How RegSense works</h2>
       <ol class="muted">
-        <li><strong>Ingest</strong> marketing materials (PDFs, slide decks, webpages, emails).</li>
-        <li><strong>Extract</strong> potentially sensitive claims (performance, yield, fees, comparisons, guarantees, endorsements).</li>
-        <li><strong>Ground</strong> the claims in regulatory requirements and internal compliance policy.</li>
-        <li><strong>Output</strong> a structured compliance report with flags, citations, and evidence for a human reviewer.</li>
+        <li>
+          <strong>Step 1 — Upload material</strong><br />
+          PDFs, webpages, emails, advertisements, or slide decks are submitted for review.
+        </li>
+        <li>
+          <strong>Step 2 — Identify claims</strong><br />
+          The system detects potential performance statements, yield claims, guarantees, comparisons, testimonials,
+          fee statements, and disclosure issues.
+        </li>
+        <li>
+          <strong>Step 3 — Validate against requirements</strong><br />
+          Relevant regulatory requirements and internal compliance rules are retrieved and checked using deterministic
+          validation logic.
+        </li>
+        <li>
+          <strong>Step 4 — Produce review-ready output</strong><br />
+          RegSense generates structured findings for reviewers (e.g., <em>revise</em>, <em>escalate</em>, or <em>hold</em>), along with
+          policy references, evidence status, and context for decision-making.
+          <span class="muted">RegSense does not replace compliance officers.</span>
+        </li>
       </ol>
-      <div class="diagram" role="img" aria-label="Documents → Claim Extraction → Policy Mapping → Deterministic Checks → Compliance Report">
-        <span>Documents</span>
-        <span class="arrow">→</span>
-        <span>Claim Extraction</span>
-        <span class="arrow">→</span>
-        <span>Policy Mapping</span>
-        <span class="arrow">→</span>
-        <span>Deterministic Checks</span>
-        <span class="arrow">→</span>
-        <span>Compliance Report</span>
-      </div>
+      <p class="muted" style="margin-top:10px;">
+        Business outcome: <strong>reduce compliance review time</strong> while producing structured, audit-ready evidence for human decision-making.
+      </p>
     </section>
 
-    <!-- 3) Why RegSense -->
+    <!-- 4) Why RegSense -->
     <section id="why" class="card slim">
-      <h2>Why RegSense</h2>
+      <h2>Built for regulatory defensibility</h2>
       <ul>
-        <li><strong>Deterministic compliance</strong> signals take priority over model judgment.</li>
-        <li><strong>Audit-ready evidence</strong> is produced by default (quoted text, structured flags, run metadata).</li>
-        <li><strong>Regulatory citations</strong> and internal policy references support reviewer verification.</li>
-        <li><strong>Human-in-the-loop</strong> workflow: RegSense flags issues; compliance decides disposition.</li>
+        <li><strong>Deterministic compliance checks</strong>, not just AI suggestions</li>
+        <li><strong>Verbatim regulatory and policy grounding</strong></li>
+        <li><strong>Audit-ready evidence</strong> and traceable review outputs</li>
+        <li><strong>Human-in-the-loop governance</strong> with explainable findings</li>
       </ul>
+      <p class="muted" style="margin-top:10px;">
+        RegSense is designed to help teams move faster without sacrificing compliance rigor, traceability, or reviewer control.
+      </p>
     </section>
 
-    <!-- 6) Use Cases -->
+    <!-- 5) Product & access -->
+    <section id="product" class="card slim">
+      <h2>Product &amp; access</h2>
+      <p class="muted" style="max-width: 860px;">
+        RegSense is being developed as a SaaS compliance platform for regulated financial institutions, with options for enterprise
+        deployment and workflow integration.
+      </p>
+      <ul>
+        <li><strong>Subscription-based platform</strong> for compliance teams</li>
+        <li><strong>Early access and pilot deployments</strong> (currently onboarding pilot users / early access conversations)</li>
+        <li><strong>API and workflow integration</strong> options</li>
+        <li><strong>Enterprise-oriented implementation</strong> for regulated environments</li>
+      </ul>
+      <p style="margin-top:12px;">
+        <a class="btn primary" href="https://docs.google.com/forms/d/e/1FAIpQLSe22UlWRCknp6ycCyxMubylqg3zphyots8WXBrdAojGvgn7bA/viewform?usp=header" target="_blank" rel="noreferrer">Request Early Access</a>
+      </p>
+    </section>
+
+    <!-- 6) Use cases -->
     <section id="usecases" class="grid">
       <div class="card">
-        <h2>Use Cases</h2>
-        <ul>
-          <li><strong>Marketing compliance pre-review</strong><br /><span class="muted">Review factsheets, webpages, emails, ads, and presentations before publication.</span></li>
-          <li><strong>Personal trading compliance</strong><br /><span class="muted">Structure attestations and evidence review (for internal employee trading workflows).</span></li>
-          <li><strong>Compliance memory</strong><br /><span class="muted">Institutional consistency: repeatable review outputs and governed decision history.</span></li>
-        </ul>
+        <h2>Use cases</h2>
+        <div class="uc">
+          <h3>Marketing Materials Pre-Review</h3>
+          <p class="muted">Review marketing materials before publication for performance claims, yield language, comparisons, missing disclosures, and other common issues.</p>
+        </div>
+        <div class="uc">
+          <h3>Personal Trading Compliance</h3>
+          <p class="muted">Support review workflows involving trade intake, pre-clearance rules, restricted list checks, and audit logging.</p>
+        </div>
+        <div class="uc">
+          <h3>Compliance Memory</h3>
+          <p class="muted">Preserve institutional knowledge (interpretations, reviewer rationales, edge cases, policy clarifications) to improve consistency over time.</p>
+        </div>
       </div>
 
-      <!-- 4) Product & Pricing -->
-      <div id="pricing" class="card">
-        <h2>Product &amp; Pricing</h2>
-        <ul>
-          <li><strong>SaaS platform</strong><br /><span class="muted">Web-based workflow for submissions, review, evidence, and reporting.</span></li>
-          <li><strong>API + enterprise integration</strong><br /><span class="muted">Integrations for storage, review queues, and internal governance systems.</span></li>
-          <li><strong>Early access / pilot</strong><br /><span class="muted">Pilot-first engagement while the MVP is hardened for regulated production workflows.</span></li>
-        </ul>
-        <p style="margin-top:12px;">
-          <a class="btn primary" href="https://docs.google.com/forms/d/e/1FAIpQLSe22UlWRCknp6ycCyxMubylqg3zphyots8WXBrdAojGvgn7bA/viewform?usp=header" target="_blank" rel="noreferrer">Request Early Access</a>
-        </p>
-      </div>
-
-      <!-- 5) Founder -->
+      <!-- 7) Founder -->
       <div id="founder" class="card">
         <h2>Founder</h2>
         <p class="muted">
-          RegSense was founded by <strong>Dmitriy Graber</strong> (Canada). Dmitriy has deep Canadian compliance leadership experience,
-          including Chief Compliance Officer experience, combined with hands-on operational and implementation experience.
-          RegSense is built with a practical focus on using AI to create auditable tools for registrants.
+          <strong>Dmitriy Graber</strong> is building RegSense based on deep experience in compliance and regulated financial services.
+        </p>
+        <ul>
+          <li>15+ years in compliance and risk</li>
+          <li>Former Chief Compliance Officer</li>
+          <li>Experience across platforms overseeing more than $20B in assets</li>
+          <li>Built and led compliance programs at major financial institutions</li>
+          <li>Focused on combining AI with deterministic compliance controls and auditability</li>
+        </ul>
+      </div>
+
+      <!-- Keep a third card so layout stays balanced on desktop -->
+      <div class="card">
+        <h2>Contact</h2>
+        <p class="muted">
+          For early access requests and pilot discussions:
+        </p>
+        <p>
+          <a class="btn primary" href="mailto:dmitriy@betterqs.com">Email</a>
+          <a class="btn ghost" href="https://docs.google.com/forms/d/e/1FAIpQLSe22UlWRCknp6ycCyxMubylqg3zphyots8WXBrdAojGvgn7bA/viewform?usp=header" target="_blank" rel="noreferrer">Request Early Access</a>
         </p>
       </div>
     </section>
@@ -123,7 +193,7 @@
     <footer class="footer">
       <div>
         <div>© <span id="y"></span> RegSense</div>
-        <div class="muted">Canada-first compliance technology for regulated financial institutions.</div>
+        <div class="muted">Compliance operating system for regulated financial institutions.</div>
       </div>
       <div class="muted footer-links">
         <a href="mailto:dmitriy@betterqs.com">Contact</a>
